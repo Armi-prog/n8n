@@ -1,7 +1,7 @@
 services:
   - type: web
     name: n8n
-    env: docker
+    env: node
     plan: free
     repo: https://github.com/Armi-prog/n8n
     branch: master
