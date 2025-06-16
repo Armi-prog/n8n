@@ -1,10 +1,8 @@
 services:
   - type: web
     name: n8n
-    env: node
+    env: docker
     plan: free
-    buildCommand: ""
-    startCommand: "npx n8n start"
     repo: https://github.com/Armi-prog/n8n
     branch: master
     autoDeploy: true
